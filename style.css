@@ -15,14 +15,11 @@ body {
 }
 
 .row {
-  width: 100%;
   max-width: 1280px;
   margin: 0 auto;
 }
 
 .row__narrow {
-  width: 100%;
-  max-width: 1024px;
   margin: 0 auto;
 }
 
@@ -71,9 +68,10 @@ NAVBAR ↓
 
 .nav__link--primary {
   display: flex;
+  height: 46px;
   background-color: rgb(100, 21, 255);
   align-items: center;
-  border-radius: 4px;
+  border-radius: 26px;
   padding: 14px 36px;
   font-weight: 700;
   border-style: none;
